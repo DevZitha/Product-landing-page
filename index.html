@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <header id="header">
+      <nav id="nav-bar">
+        <img id="header-img" src="https://news.virginia.edu/sites/default/files/article_image/tutoring_header.jpg" alt="Tutoring Logo" width="75" />
+        <span id="header-text">Fly high, with us</span>
+        <ul>
+          <li><a href="#offerings" class="nav-link">Offerings</a></li>
+          <li><a href="#pricing" class="nav-link">Pricing</a></li>
+          <li><a href="#contact" class="nav-link">Contact Us</a></li>
+          <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="offerings">
+        <h2>Our Offerings</h2>
+        <div class="offering">
+          <h3>Online Tutoring</h3>
+          <i class="ri-live-fill ri-3x icon" aria-label="Online Tutoring Icon"></i>
+          <p>Flexible and convenient online sessions tailored to your needs.</p>
+        </div>
+        <div class="offering">
+          <h3>In-person Tutoring</h3>
+          <i class="ri-user-location-fill ri-3x icon" aria-label="In-person Tutoring Icon"></i>
+          <p>Face-to-face sessions to provide personalized learning experiences.</p>
+        </div>
+        <div class="offering">
+          <h3>Hybrid Learning</h3>
+          <i class="ri-school-line ri-3x icon" aria-label="Hybrid Learning Icon"></i>
+          <p>Combine the best of online and in-person tutoring.</p>
+        </div>
+      </section>
+
+      <section id="pricing">
+        <h2>Pricing</h2>
+        <div class="pricing-container">
+          <div class="pricing-card">
+            <h3>For Online</h3>
+            <p class="price">R1 200.00</p>
+            <p>Per month</p>
+            <p>Up to 15 lessons</p>
+            <p>Material Provided</p>
+            <button class="select-button">SELECT</button>
+          </div>
+          <div class="pricing-card">
+            <h3>For Contact</h3>
+            <p class="price">R1 500</p>
+            <p>Per month</p>
+            <p>Up to 13 meetings</p>
+            <p>Material Provided</p>
+            <p>No meetings on Sundays</p>
+            <button class="select-button">SELECT</button>
+          </div>
+          <div class="pricing-card">
+            <h3>Mixed Offering</h3>
+            <p class="price">R1 350.00</p>
+            <p>Per month</p>
+            <p>Up to 8 online lessons</p>
+            <p>Up to 5 in-person meetings</p>
+            <p>Material Provided</p>
+            <button class="select-button">SELECT</button>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
+          <label for="name">Name:</label>
+          <input type="text" placeholder="Abel" id="name" name="name" required />
+          <br />
+
+          <label for="surname">Surname:</label>
+          <input type="text" placeholder="Zicco" id="surname" name="surname" required />
+          <br />
+
+          <label for="grade">Grade:</label>
+          <input type="number" placeholder="10" id="grade" name="grade" required />
+          <br />
+
+          <label for="email">Email:</label>
+          <input type="email" placeholder="AbelZicco@gmail.com" id="email" name="email" required />
+          <br />
+
+          <input type="submit" id="submit" value="Submit" />
+        </form>
+      </section>
+
+      <section id="testimonials">
+        <h2>Testimonials</h2>
+        <p>Customer testimonials...</p>
+        <iframe src="https://www.youtube.com/embed/YKhWttH0wpM?si=xKZbKOuuVu6xn-wq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" id="video"></iframe>
+      </section>
+    </main>
+
+    <footer>
+      <span>T's & C's</span>
+    </footer>
+  </body>
+</html>
